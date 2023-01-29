@@ -1,0 +1,524 @@
+body{
+    overflow-x: hidden;
+}
+.border-gray{
+    border-color: gray !important;
+}
+#headerMenu{
+    background: linear-gradient(180deg, #2f1174, #241d7d) !important;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+#headerLink{
+    font-size: 2rem;
+}
+#headerMenuBtn{
+    background: #7b68ee;
+    color: white;
+    padding: 0.7rem 1.9rem;
+    transition: .8s;
+    border: none;
+}
+#headerMenuBtn:focus{
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+#headerItems a{
+    margin-right: 10px
+}
+#headerItems a:hover{
+    color: #969696 !important;
+}
+#headerMenuBtn:hover{
+    background-color: #597fcd;
+    transform: scale(1.1);
+}
+#header{
+    background: linear-gradient(180deg, #19266f, #066fb0);
+}
+#headerContent{
+    padding: 7rem;
+}
+#headerBtn a:last-child{
+    background-color: #7b68ee;
+    border: none;
+}
+#headerBtn a:first-child{
+    color: #7b68ee;
+    border: none;
+}
+#headerBtn a{
+    padding: 0.8rem 1.5rem !important;
+    margin-top: 10px;
+    font-weight: 500;
+}
+#headerBtn a:hover{
+    background: #1884e4;
+    color: white;
+    box-shadow: 2px 2px 4px #2370c9;
+}
+#servicesTitle{
+    color : #fb883e;
+    font-weight: 600;
+}
+#svgShapeWave{
+    position: relative;
+    top: 1px;
+}
+#servicesTitle span{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #0b0b31;
+}
+.serviceBoxIcon svg{
+    cursor: pointer;
+    fill: #ff6a38;
+    margin: 1rem;
+}
+.serviceBoxTitle{
+    padding: 1rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+.serviceBoxLink a{
+    color: #dc5527 ; 
+}
+.serviceBox svg , .serviceBox{
+    transition: .6s;
+}
+.serviceBox:hover .serviceBoxIcon svg{
+    transform: rotateY(180deg);
+}
+.serviceBox:hover{
+    transform: translateY(-10px);
+}
+#aboutUs{
+    margin-top: 10rem;
+}
+#aboutUsImgParent div{
+    width: 250px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.2rem;
+    border-bottom: 2px solid #ffac00f0;
+    position: absolute;
+    bottom: 1.5rem;
+    background-color: white;
+    font-size: 3rem;
+    color: #5f0caa;
+    font-weight: 700;
+}
+#aboutUsImgParent div span{
+    font-size: 1rem;
+    color: #ffac00f0;
+    font-weight: 700;
+}
+div#aboutUsTitle{
+    color: #7b6cee;
+    font-weight: 500;
+}
+div#aboutUsTitle span{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #000000;
+}
+.maxSkill{
+    position: relative;
+    background: #80808075;
+    height: 10px;
+    border-radius: 5px;
+    margin: 2rem 0;
+}
+.skill{
+    height: 10px;
+    background: #7b6cee;
+}
+#itConsultingSkill{
+    width: 90%;
+}
+#virtualWorkstationSkill{
+    width: 75%;
+}
+#managedItServiceSkill{
+    width: 80%;
+}
+#itConsultingSkill::before {
+    content: 'IT Consulting';
+    position: absolute;
+    top: -25px;
+    font-size: 14px;
+    color: #4f4d4d;
+}
+#virtualWorkstationSkill::before {
+    content: 'Virtual Workstation';
+    position: absolute;
+    top: -25px;
+    font-size: 14px;
+    color: #4f4d4d;
+}
+#managedItServiceSkill::before {
+    content: 'Managed IT Service';
+    position: absolute;
+    top: -25px;
+    font-size: 14px;
+    color: #4f4d4d;
+}
+span.skillPercentNumber {
+    position: absolute;
+    right: 0;
+    top: -25px;
+}
+#aboutUsBtn a{
+    padding: 9px 17px;
+    font-weight: 500;
+    background: #7b68ee !important;
+    border: none;
+}
+#aboutUsBtn a:focus{
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+#aboutUsBtn a:hover{
+    background-color: #4b36cf !important;
+}
+#advantage{
+    margin-top: 10rem;
+}
+#advantageTitle , #trustTitle{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+#advantageTitle span, #trustTitle span{
+    font-size: 1rem;
+    color: #ff9f00;
+}
+#advantageContent , #trustContent{
+    padding: 1rem 0 ;
+    color: #817e7e;
+    line-height: 1.5;
+}
+.animateBox {
+    display: flex;
+    padding: 1rem 0.7rem;
+    border-left: 2px solid #7b68ee;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    align-items: center;
+    box-shadow: 2px 2px 4px #b9b1b1;
+    position: relative;
+    font-weight: 700;
+}
+@keyframes progressAnimate {
+    from{
+        width : 0%;
+    }
+    to{
+        width: 100%;
+    }
+}
+.progressBox{
+    position: absolute;
+    left: 0;
+    height: 100%;
+    background: #7b68ee;
+    z-index: -1;
+    border-radius: 5px;
+}
+.animateBox:hover .progressBox{
+    animation: progressAnimate .6s ease-in;
+    width: 100%;
+}
+.animateBox:hover{
+    color: white !important;
+}
+#trust{
+    margin-top: 10rem;
+}
+#counter{
+    margin-top: 5rem;
+    padding: 100px 0;
+    background-image: url('../pictures/background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 1;
+}
+.counterItem{
+    color: white;
+    padding: 2rem;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.counterItem span {
+    font-size: 2rem;
+    font-weight: 900;
+}
+#counter div.container{
+    background: #101010ad;
+    border-radius: 10px;
+}
+.carousel-control-next-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e") !important;
+}
+.carousel-control-prev-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23'%3e%3cpath d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/%3e%3c/svg%3e") !important;
+}
+#clientOpinionTitle{
+    font-size: 2.5rem;
+    font-weight: 800;
+    padding: 3rem 1rem;
+}
+#clientOpinionTitle span{
+    font-size: 1rem;
+    color: #ff9800;
+}
+.clientOpinionBoxContent{
+    padding: 1rem 5rem;
+}
+.clientOpinionBoxImg img{
+    border-radius: 50%;
+    padding: 5px;   
+}
+.clientOpinionBoxName{
+    font-size: 1.5rem;
+    font-weight: 500;
+}.clientOpinionBoxName span{
+    font-size: 1rem;
+    font-weight: 300;
+}
+.clientOpinionBoxRate svg{
+    fill: #ffce3e;
+}
+.teamMemberImg img{
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    transition: .5s;
+}
+.teamMemberBox{
+    text-align: center;
+}
+.teamIntroTitle span{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #0b0b31;
+}
+.teamIntroTitle{
+    padding: 3rem;
+    color: #ff9831;
+    font-weight: 600;
+}
+.teamMemberData{
+    padding: 1rem;
+}
+.teamMemberDataJob{
+    font-size: .8rem;
+    color: #501fa9;
+    font-weight: bold;
+}
+.teamMemberImg{
+    overflow: hidden;
+}
+.teamMemberImg img:hover{
+    transform: scale(1.1) rotate(5deg);
+}
+.blogBoxImg img{
+    width: 516px;
+    height: 300px;
+    border-radius: 5px;
+}
+#blog{
+    margin-top: 10rem;
+}
+.blogTitle{
+    text-align: center;
+    padding: 3rem;
+    color: #ff9831;
+    font-weight: 600;
+}
+.blogTitle span{
+    font-size: 2.5rem;
+    color: #0b0b31;
+}
+.blogBoxIcons{
+    padding: 12px;
+    color: #8c83ef;
+}
+.blogBoxTitle{
+    padding: 12px;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.blogBoxContent{
+    color: #493e3e;
+    padding: 5px 12px
+}
+.blogBoxLink a{
+    padding: 12px;
+    color: #3a3737;
+}
+.blogBoxLink a:hover{
+    color: #005adb;
+}
+.blogBox {
+    margin-bottom: 2rem;
+    box-shadow: 2px 2px 4px #c6bdbd;
+    border-radius: 5px;
+    padding : 0px 0px 20px 0;
+}
+#contact{
+    margin-top: 6rem;
+    padding: 1rem;
+    background: url('../pictures/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+#contactTitle{
+    color: #e77810;
+    font-weight: 500;
+    padding: 1rem 0;
+}
+#contactTitle span{
+    font-size: 2rem;
+    color: white;
+    font-weight: bold;
+}
+#contactCard{
+    background: #1716168a
+}
+#contactContent{
+    font-weight: 600;
+    margin: 30px auto;
+}
+div#contactBtn a{
+    padding: 10px 25px;
+    margin: 1rem;
+    border: none;
+    font-weight: 500;
+}
+div#contactBtn a:first-child{
+    background: #7b68ee !important;
+    color: white;
+}
+div#contactBtn a:focus{
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+#customers img{
+    width: 164px;
+    cursor: pointer;
+}
+#customers{
+    margin-top: 8rem;
+}
+#customerTitle{
+    text-align: center;
+    padding: 1rem;
+    color: #edac53;
+    font-weight: 600;
+}
+#customerTitle span{
+    font-size: 2.5rem;
+    color: #0b0b31;
+    font-weight: 700;
+}
+#footer{
+    background: #1c1c23;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
+    margin: 10rem 0 0 0;
+}
+#signUpContent span{
+    font-size: 2rem !important;
+    font-weight: 700;
+}
+#signUpContent{
+    font-size: .9rem;
+}
+#subscribe{
+    position: relative;
+}
+#subscribe input{
+    padding: 10px 140px 10px 10px;
+    outline: none;
+    border-radius: 5px;
+}
+#subscribe button{
+    position: absolute;
+    right: 0;
+    padding: 10px;
+    background: #7b68ee !important;
+    color: white;
+    border: 1px solid #7b68ee;
+    border-radius: 0px 5px 5px 0;
+}
+#subscribe button:focus{
+    outline: none;
+    box-shadow: none;
+    border: none;
+}
+#subscribe button:hover{
+    background-color: #ff9800 !important;
+}
+#footerAboutUsTitle{
+    font-size: 1.5rem;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+}
+#footerAboutUsContent{
+
+    line-height: 1.8;
+    padding-top: 19px;
+}
+#footerAboutUsIcons{
+    margin: 15px 0;
+}
+div#footerAboutUsIcons svg {
+    margin: 10px;
+    fill: #7b68ee;
+    cursor: pointer;
+}
+div#footerAboutUsIcons svg:hover{
+    fill: #cc00ff;
+    transition: .5s;
+}
+#footerServicesTitle , #footerLinkTitle ,#footerContactTitle{
+    font-size: 1.5rem;
+    border-bottom: 1px solid gray;
+    padding-bottom: 10px;
+}
+#footerServicesList , #footerLinkList , #footerContactList{
+    padding-top: 15px;
+}
+div#footerServicesList div a , div#footerLinkList div a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 6px 0;
+    color: white;
+}
+div#footerServicesList div a:hover , div#footerLinkList div a:hover{
+    text-decoration: underline;
+    color: #7b68ee;
+}
+#footerContactList div{
+    margin: 15px 0;
+}
+#footerContactList div span{
+    font-size: 1.5rem;
+}
+#aboutUsContent , #aboutUsSkills{
+    padding-top: 20px !important;
+}

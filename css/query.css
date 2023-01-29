@@ -1,0 +1,25 @@
+@media screen and (max-width : 1200px) {
+    #headerContent{
+        padding: 3rem;
+    }
+}
+
+@media screen and (max-width : 400px) {
+    #subscribe button{
+        position: relative;
+        margin-top: 10px;
+        border-radius: 5px;
+    }
+    #subscribe{
+        flex-direction: column;
+    }
+    #aboutUsImgParent div {
+        width: 150px;
+        height: 90px;
+    }
+}
+@media screen and (max-width : 300px) {
+    #advantageTitle, #trustTitle {
+        font-size: 1.5rem;
+    }
+}

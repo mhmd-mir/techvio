@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techvio</title>
+    <link rel="icon" href="pictures/titleIcon.png" type="image/icon type">
+    <link rel="stylesheet" href="bootstrap/bootstrap-5.2.0-beta1-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/query.css">
+</head>
+<body>
+    <!-- // the menubar -->
+    <nav class="navbar navbar-expand-lg bg-light" id="headerMenu">
+        <div class="container px-5">
+          <a class="navbar-brand text-white" href="#" id="headerLink">tecgvio</a>
+          <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto" id="headerItems">
+              <li class="nav-item">
+                <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">About Us</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link text-white" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Pages</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Contact</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <button class="btn btn-outline-success d-none d-md-block" type="submit" id="headerMenuBtn">Get It Support</button>
+            </form>
+          </div>
+        </div>
+    </nav>
+    <!-- //the Header -->
+    <div class="container-fluid p-0" id="header">
+        <div class="row">
+            <div class="col-lg-6 text-center text-lg-start" id="headerContent">
+                <div class="h1 text-white">IT Solutions & Business Services Company</div>
+                <p class="text-white pt-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua, magna aliqua. ipsum is simply dummy text of the printing.</p>
+                <div id="headerBtn">
+                    <a class="btn p-3 btn-light me-2" href="#">About Us</a>
+                    <a class="btn p-3 b text-white" href="#">Contact Us</a>
+                </div>
+            </div>
+            <div class="col-lg-6 text-center" id="headerImg">
+                <img src="pictures/headerImg.png" alt="techvio" class="img-fluid mt-4 position-relative " width="500px">
+            </div>
+        </div>
+        <img src="pictures/headerSvgPic.png" class="img-fluid" id="svgShapeWave">
+    </div>
+        <!-- //Services  -->
+    <div class="container">
+        <div id="servicesTitle" class="text-center p-5">
+            WHAT WE PROVIDE <br>
+            <span>IT Solutions</span>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-lg-4 p-3 shadow serviceBox" >
+                <div class="serviceBoxIcon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-wrench-adjustable" viewBox="0 0 16 16">
+                    <path d="M16 4.5a4.492 4.492 0 0 1-1.703 3.526L13 5l2.959-1.11c.027.2.041.403.041.61Z"/>
+                    <path d="M11.5 9c.653 0 1.273-.139 1.833-.39L12 5.5 11 3l3.826-1.53A4.5 4.5 0 0 0 7.29 6.092l-6.116 5.096a2.583 2.583 0 1 0 3.638 3.638L9.908 8.71A4.49 4.49 0 0 0 11.5 9Zm-1.292-4.361-.596.893.809-.27a.25.25 0 0 1 .287.377l-.596.893.809-.27.158.475-1.5.5a.25.25 0 0 1-.287-.376l.596-.893-.809.27a.25.25 0 0 1-.287-.377l.596-.893-.809.27-.158-.475 1.5-.5a.25.25 0 0 1 .287.376ZM3 14a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"/>
+                  </svg>
+                </div>
+                <div class="serviceBoxTitle">IT Solution</div>
+                <div class="serviceBoxContent p-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna aliqua</div>
+                <div class="serviceBoxLink ps-3">
+                  <a href="#">Read More</a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 p-3 shadow serviceBox" >
+              <div class="serviceBoxIcon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-code-square" viewBox="0 0 16 16">
+                  <path d="M14 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h12zM2 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H2z"/>
+                  <path d="M6.854 4.646a.5.5 0 0 1 0 .708L4.207 8l2.647 2.646a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 0 1 .708 0zm2.292 0a.5.5 0 0 0 0 .708L11.793 8l-2.647 2.646a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 0 0-.708 0z"/>
+                </svg>
+              </div>
+              <div class="serviceBoxTitle">Web Development</div>
+              <div class="serviceBoxContent p-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna aliqua</div>
+              <div class="serviceBoxLink ps-3">
+                <a href="#">Read More</a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 p-3 shadow serviceBox" >
+              <div class="serviceBoxIcon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-wifi" viewBox="0 0 16 16">
+                  <path d="M15.384 6.115a.485.485 0 0 0-.047-.736A12.444 12.444 0 0 0 8 3C5.259 3 2.723 3.882.663 5.379a.485.485 0 0 0-.048.736.518.518 0 0 0 .668.05A11.448 11.448 0 0 1 8 4c2.507 0 4.827.802 6.716 2.164.205.148.49.13.668-.049z"/>
+                  <path d="M13.229 8.271a.482.482 0 0 0-.063-.745A9.455 9.455 0 0 0 8 6c-1.905 0-3.68.56-5.166 1.526a.48.48 0 0 0-.063.745.525.525 0 0 0 .652.065A8.46 8.46 0 0 1 8 7a8.46 8.46 0 0 1 4.576 1.336c.206.132.48.108.653-.065zm-2.183 2.183c.226-.226.185-.605-.1-.75A6.473 6.473 0 0 0 8 9c-1.06 0-2.062.254-2.946.704-.285.145-.326.524-.1.75l.015.015c.16.16.407.19.611.09A5.478 5.478 0 0 1 8 10c.868 0 1.69.201 2.42.56.203.1.45.07.61-.091l.016-.015zM9.06 12.44c.196-.196.198-.52-.04-.66A1.99 1.99 0 0 0 8 11.5a1.99 1.99 0 0 0-1.02.28c-.238.14-.236.464-.04.66l.706.706a.5.5 0 0 0 .707 0l.707-.707z"/>
+                </svg>
+              </div>
+              <div class="serviceBoxTitle">Networking Services</div>
+              <div class="serviceBoxContent p-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna aliqua</div>
+              <div class="serviceBoxLink ps-3">
+                <a href="#">Read More</a>
+              </div>
+            </div>
+            <div class="col-md-6 col-lg-4 p-3 shadow serviceBox" >
+          <div class="serviceBoxIcon">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-google" viewBox="0 0 16 16">
+              <path d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z"/>
+            </svg>
+          </div>
+          <div class="serviceBoxTitle">SEO Optimization</div>
+          <div class="serviceBoxContent p-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna aliqua</div>
+          <div class="serviceBoxLink ps-3">
+            <a href="#">Read More</a>
+          </div>
+            </div>
+            <div class="col-md-6 col-lg-4 p-3 shadow serviceBox" >
+        <div class="serviceBoxIcon">
+          <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-phone" viewBox="0 0 16 16">
+            <path d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h6zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H5z"/>
+            <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+          </svg>
+        </div>
+        <div class="serviceBoxTitle">App Optimization</div>
+        <div class="serviceBoxContent p-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna aliqua</div>
+        <div class="serviceBoxLink ps-3">
+          <a href="#">Read More</a>
+        </div>
+            </div>
+            <div class="col-md-6 col-lg-4 p-3 shadow serviceBox" >
+      <div class="serviceBoxIcon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-bar-chart-line" viewBox="0 0 16 16">
+          <path d="M11 2a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v12h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1v-3a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v3h1V7a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1v7h1V2zm1 12h2V2h-2v12zm-3 0V7H7v7h2zm-5 0v-3H2v3h2z"/>
+        </svg>
+      </div>
+      <div class="serviceBoxTitle">Data Recovery</div>
+      <div class="serviceBoxContent p-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt dolore magna aliqua</div>
+      <div class="serviceBoxLink ps-3">
+        <a href="#">Read More</a>
+      </div>
+            </div>
+        </div>
+    </div>
+    <!-- // aboutUs -->
+    <div class="container" id="aboutUs">
+      <div class="row">
+        <div class="col-lg-6 p-3">
+          <div id="aboutUsTitle">
+            ABOUT OUR COMPANY <br> <span>Providing your business with a quality IT service is our passion.</span>
+          </div>
+          <div id="aboutUsContent" class="pt-2 lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua enim ad minim veniam, nostrud</div>
+          <div id="aboutUsSkills">
+            <div class="maxSkill">
+              <div class="skill" id="itConsultingSkill">.</div>
+              <span class="skillPercentNumber">90%</span>
+            </div>
+            <div class="maxSkill">
+              <div class="skill" id="virtualWorkstationSkill">.</div>
+              <span class="skillPercentNumber" >75%</span>
+            </div>
+            <div class="maxSkill">
+              <div class="skill" id="managedItServiceSkill">.</div>
+              <span class="skillPercentNumber" >80%</span>
+            </div>
+          </div>
+          <div id="aboutUsBtn">
+            <a href="#" class="btn btn-info text-white">learn more</a>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <div id="aboutUsImgParent" class="text-center position-relative ">
+            <img src="pictures/aboutUs.jpg" width="445px" class="rounded img-fluid">
+            <div class="shadow-lg">27  <span>YEARS EXPERIENCE</span> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- // the advantage -->
+    <div class="container" id="advantage">
+      <div class="row">
+        <div class="col-lg-6">
+          <img src="pictures/advantageImg.jpg" class="img-fluid">
+        </div>
+        <div class="col-lg-6 pt-5">
+          <div id="advantageTitle">
+            <span>WHY CHOOSE US?</span> <br>
+            Safeguard your brand with Cyber-Security & IT Solutions
+          </div>
+          <div id="advantageContent">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+          <div id="advantageAnimateBox">
+            <div class="row">
+              <div class="col-sm-6">
+                <div class="animateBox">
+                  <span>Remote It Assistance</span>
+                  <div class="progressBox"></div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="animateBox">
+                  <span>Solving IT Problems</span>
+                  <div class="progressBox"></div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="animateBox">
+                  <span>Practice IT Management</span>
+                  <div class="progressBox"></div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="animateBox">
+                  <span>IT Security Services</span>
+                  <div class="progressBox"></div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="animateBox">
+                  <span>Managed IT Service</span>
+                  <div class="progressBox"></div>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <div class="animateBox">
+                  <span>Cloud Services</span>
+                  <div class="progressBox"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- //trust -->
+    <div class="container" id="trust">
+      <div class="row">
+        <div class="col-lg-6 pt-5">
+          <div id="trustTitle">
+            <span>WHY TRUST US?</span> <br> Achieve digital transformation for your retail business services
+          </div>
+          <div id="trustContent">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+          </div>
+          <div class="trustAnimateBox">
+              <div class="row">
+                <div class="col-sm-6">
+                  <div class="animateBox">
+                    <span>Protect your Business</span>
+                    <div class="progressBox"></div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="animateBox">
+                    <span>Network Security</span>
+                    <div class="progressBox"></div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="animateBox">
+                    <span>Data Security</span>
+                    <div class="progressBox"></div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="animateBox">
+                    <span>Small Business Owners</span>
+                    <div class="progressBox"></div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="animateBox">
+                    <span>Running your Business</span>
+                    <div class="progressBox"></div>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="animateBox">
+                    <span>Network Monitoring</span>
+                    <div class="progressBox"></div>
+                  </div>
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <img src="pictures/trustImg.jpg" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  
+
+    <!-- // the counter section -->
+    <div id="counter">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-3 counterItem">
+            <span>27 +</span> <br> Years Helping Business
+          </div>
+          <div class="col-md-6 col-lg-3 counterItem">
+            <span>500 +</span> <br> Employees
+          </div>
+          <div class="col-md-6 col-lg-3 counterItem">
+            <span>500M</span> <br> Complete Projects
+          </div>
+          <div class="col-md-6 col-lg-3 counterItem">
+            <span>90 K+</span> <br> 5 Star Rating
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- // -->
+    <div class="container mt-5" id="clientOpinion">
+      <div id="clientOpinionTitle" class="text-center">
+        <span>TESTIMONIAL</span> <br> What Our Client Say
+      </div>
+      <div class="row">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active text-center">
+              <div class="clientOpinionBox">
+                <div class="clientOpinionBoxRate">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                </div>
+                <div class="clientOpinionBoxContent">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe commodi ullam placeat quos ex quidem voluptatibus ad ducimus cumque modi quibusdam beatae, a, consequatur labore.
+                </div>
+                <div class="clientOpinionBoxImg">
+                  <img src="pictures/client1.jpg">
+                </div>
+                <div class="clientOpinionBoxName">
+                  zahra barnett <br>
+                  <span>Iran</span>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item text-center">
+              <div class="clientOpinionBox">
+                <div class="clientOpinionBoxRate">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                </div>
+                <div class="clientOpinionBoxContent">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe commodi ullam placeat quos ex quidem voluptatibus ad ducimus cumque modi quibusdam beatae, a, consequatur labore.
+                </div>
+                <div class="clientOpinionBoxImg">
+                  <img src="pictures/client2.jpg">
+                </div>
+                <div class="clientOpinionBoxName">
+                  john digl <br>
+                  <span>United States</span>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item text-center">
+              <div class="clientOpinionBox">
+                <div class="clientOpinionBoxRate">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                    <path d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z"/>
+                  </svg>
+                </div>
+                <div class="clientOpinionBoxContent">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe commodi ullam placeat quos ex quidem voluptatibus ad ducimus cumque modi quibusdam beatae, a, consequatur labore.
+                </div>
+                <div class="clientOpinionBoxImg">
+                  <img src="pictures/client3.jpg">
+                </div>
+                <div class="clientOpinionBoxName">
+                  slade ruby <br>
+                  <span>italy</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- // teamIntro -->
+    <div class="container mt-5 pt-5">
+      <div class="teamIntroTitle text-center">
+        TEAM MEMBER <br> <span>Expert Team</span>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-lg-3">
+          <div class="teamMemberBox">
+            <div class="teamMemberImg">
+              <img src="pictures/teamMember1.jpg" />
+            </div>
+            <div class="teamMemberData">
+              <div class="teamMemberDataName">Ava Farrington</div>
+              <div class="teamMemberDataJob">Founder, ceo</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="teamMemberBox">
+            <div class="teamMemberImg">
+              <img src="pictures/teamMember2.jpg" />
+            </div>
+            <div class="teamMemberData">
+              <div class="teamMemberDataName">Kevin Haley</div>
+              <div class="teamMemberDataJob">Co-founder, cto</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 ">
+          <div class="teamMemberBox">
+            <div class="teamMemberImg">
+              <img src="pictures/teamMember3.jpg" />
+            </div>
+            <div class="teamMemberData">
+              <div class="teamMemberDataName">Alishia Fulton</div>
+              <div class="teamMemberDataJob">Chief creative officer</div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="teamMemberBox">
+            <div class="teamMemberImg">
+              <img src="pictures/teamMember4.jpg" />
+            </div>
+            <div class="teamMemberData">
+              <div class="teamMemberDataName">Lucas Martinez</div>
+              <div class="teamMemberDataJob">Project Manager</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- // the blog -->
+    <div class="container" id="blog">
+      <div class="blogTitle">
+        BLOG & ARTICLE <br> <span>Recent Blog</span>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="blogBox">
+            <div class="blogBoxImg">
+              <img src="pictures/blogPic1.jpg" class="img-fluid">
+            </div>
+            <div class="blogBoxIcons">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+              </svg>
+              <span class="me-4">author</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-date-fill" viewBox="0 0 16 16">
+                <path d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5zm5.402 9.746c.625 0 1.184-.484 1.184-1.18 0-.832-.527-1.23-1.16-1.23-.586 0-1.168.387-1.168 1.21 0 .817.543 1.2 1.144 1.2z"/>
+                <path d="M16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2zm-6.664-1.21c-1.11 0-1.656-.767-1.703-1.407h.683c.043.37.387.82 1.051.82.844 0 1.301-.848 1.305-2.164h-.027c-.153.414-.637.79-1.383.79-.852 0-1.676-.61-1.676-1.77 0-1.137.871-1.809 1.797-1.809 1.172 0 1.953.734 1.953 2.668 0 1.805-.742 2.871-2 2.871zm-2.89-5.435v5.332H5.77V8.079h-.012c-.29.156-.883.52-1.258.777V8.16a12.6 12.6 0 0 1 1.313-.805h.632z"/>
+              </svg>
+              <span>19 June 2021</span>
+            </div>
+            <div class="blogBoxTitle">Planning for a Safe Return to the Workplace IT Solutions</div>
+            <div class="blogBoxContent">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt</div>
+            <div class="blogBoxLink">
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="blogBox">
+            <div class="blogBoxImg">
+              <img src="pictures/blogPic2.jpg" class="img-fluid">
+            </div>
+            <div class="blogBoxIcons">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+              </svg>
+              <span class="me-3">author</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-date-fill" viewBox="0 0 16 16">
+                <path d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5zm5.402 9.746c.625 0 1.184-.484 1.184-1.18 0-.832-.527-1.23-1.16-1.23-.586 0-1.168.387-1.168 1.21 0 .817.543 1.2 1.144 1.2z"/>
+                <path d="M16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2zm-6.664-1.21c-1.11 0-1.656-.767-1.703-1.407h.683c.043.37.387.82 1.051.82.844 0 1.301-.848 1.305-2.164h-.027c-.153.414-.637.79-1.383.79-.852 0-1.676-.61-1.676-1.77 0-1.137.871-1.809 1.797-1.809 1.172 0 1.953.734 1.953 2.668 0 1.805-.742 2.871-2 2.871zm-2.89-5.435v5.332H5.77V8.079h-.012c-.29.156-.883.52-1.258.777V8.16a12.6 12.6 0 0 1 1.313-.805h.632z"/>
+              </svg>
+              <span>19 June 2021</span>
+            </div>
+            <div class="blogBoxTitle">Announcing Our New Smiles for Success Charity</div>
+            <div class="blogBoxContent">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt</div>
+            <div class="blogBoxLink">
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+          <div class="blogBox">
+            <div class="blogBoxImg">
+              <img src="pictures/blogPic3.jpg" class="img-fluid">
+            </div>
+            <div class="blogBoxIcons">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+              </svg>
+              <span class="me-3">author</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-calendar-date-fill" viewBox="0 0 16 16">
+                <path d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5zm5.402 9.746c.625 0 1.184-.484 1.184-1.18 0-.832-.527-1.23-1.16-1.23-.586 0-1.168.387-1.168 1.21 0 .817.543 1.2 1.144 1.2z"/>
+                <path d="M16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2zm-6.664-1.21c-1.11 0-1.656-.767-1.703-1.407h.683c.043.37.387.82 1.051.82.844 0 1.301-.848 1.305-2.164h-.027c-.153.414-.637.79-1.383.79-.852 0-1.676-.61-1.676-1.77 0-1.137.871-1.809 1.797-1.809 1.172 0 1.953.734 1.953 2.668 0 1.805-.742 2.871-2 2.871zm-2.89-5.435v5.332H5.77V8.079h-.012c-.29.156-.883.52-1.258.777V8.16a12.6 12.6 0 0 1 1.313-.805h.632z"/>
+              </svg>
+              <span>19 June 2021</span>
+            </div>
+            <div class="blogBoxTitle">Machine Learning Applications for Every Industry</div>
+            <div class="blogBoxContent">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incididunt</div>
+            <div class="blogBoxLink">
+              <a href="#">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- //the Contact section -->
+    <div class="container-fluid text-center" id="contact">
+      <div id="contactCard">
+        <div id="contactTitle">WANT TO WORK WITH US? <br> <span>Digitally transform and grow your business!</span> </div>
+        <div id="contactContent">
+          <div class="row">
+            <div class="col-md-6 text-center mx-auto">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud consectetur voluptatem accusantium doloremque adipiscing elit.
+            </div>
+          </div>
+        </div>
+        <div id="contactBtn">
+          <a href="#" class="btn btn-info">call now</a>
+          <a href="#" class="btn btn-light">contact us</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- // customers -->
+    <div class="container" id="customers">
+      <div id="customerTitle">TRUSTED BY OVER 40,000 <br> <span> Our Customers</span> </div>
+      <div class="row text-center">
+        <div class="col-6 col-md-3">
+          <img src="pictures/customer1.png" class="img-fluid">
+        </div>
+        <div class="col-6 col-md-3">
+          <img src="pictures/customer2.png" class="img-fluid">
+        </div>
+        <div class="col-6 col-md-3">
+          <img src="pictures/customer3.png" class="img-fluid">
+        </div>
+        <div class="col-6 col-md-3">
+          <img src="pictures/customer4.png" class="img-fluid">
+        </div>
+        <div class="col-6 col-md-3">
+          <img src="pictures/customer5.png" class="img-fluid">
+        </div>
+        <div class="col-6 col-md-3">
+          <img src="pictures/customer6.png" class="img-fluid">
+        </div>
+        <div class="col-6 col-md-3">
+          <img src="pictures/customer7.png" class="img-fluid">
+        </div>
+        <div class="col-6 col-md-3">
+          <img src="pictures/customer8.png" class="img-fluid">
+        </div>
+        <div class="col-6 col-md-3">
+          <img src="pictures/customer9.png" class="img-fluid">
+        </div>
+      </div>
+    </div>
+
+    <!-- //footer -->
+    <div class="container-fluid" id="footer">
+      <div class="row my-5">
+        <div class="col-lg-6 d-flex justify-content-center pt-3">
+          <div id="signUpContent" class="mb-5">
+            <span>Sign Up Our Newsletter</span> <br> We Offer An Informative Monthly Technology Newsletter - Check It Out.
+          </div>
+        </div>
+        <div class="col-lg-6 d-flex align-items-center justify-content-center">
+          <div id="subscribe" class="d-flex align-items-center w-100">
+            <input type="email" placeholder="enter your email" class="w-100">
+            <button class="btn btn-warning">Subscribe Now</button>
+          </div>
+        </div>
+      </div>
+      <div class="row pt-4 border-top border-gray p-4">
+        <div class="col-md-4">
+          <div id="footerAboutUs">
+            <div id="footerAboutUsTitle">About Us</div>
+            <div id="footerAboutUsContent">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco consectetur laboris.</div>
+            <div id="footerAboutUsIcons">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-pinterest" viewBox="0 0 16 16">
+                <path d="M8 0a8 8 0 0 0-2.915 15.452c-.07-.633-.134-1.606.027-2.297.146-.625.938-3.977.938-3.977s-.239-.479-.239-1.187c0-1.113.645-1.943 1.448-1.943.682 0 1.012.512 1.012 1.127 0 .686-.437 1.712-.663 2.663-.188.796.4 1.446 1.185 1.446 1.422 0 2.515-1.5 2.515-3.664 0-1.915-1.377-3.254-3.342-3.254-2.276 0-3.612 1.707-3.612 3.471 0 .688.265 1.425.595 1.826a.24.24 0 0 1 .056.23c-.061.252-.196.796-.222.907-.035.146-.116.177-.268.107-1-.465-1.624-1.926-1.624-3.1 0-2.523 1.834-4.84 5.286-4.84 2.775 0 4.932 1.977 4.932 4.62 0 2.757-1.739 4.976-4.151 4.976-.811 0-1.573-.421-1.834-.919l-.498 1.902c-.181.695-.669 1.566-.995 2.097A8 8 0 1 0 8 0z"/>
+              </svg>
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="row">
+            <div class="col-md-6">
+              <div id="footerServices">
+                <div id="footerServicesTitle">Our Services</div>
+                <div id="footerServicesList">
+                  <div> <a href="#">IT Solution</a> </div>
+                  <div> <a href="#">Web Development</a> </div>
+                  <div> <a href="#">Networking Services</a> </div>
+                  <div> <a href="#">SEO Optimization</a> </div>
+                  <div> <a href="#">App Optimization</a> </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div id="footerLinks">
+                <div id="footerLinkTitle">Useful Links</div>
+                <div id="footerLinkList">
+                  <div> <a href="#">About Us</a> </div>
+                  <div> <a href="#">Case Study</a> </div>
+                  <div> <a href="#">Contact Us</a> </div>
+                  <div> <a href="#">Privacy Policy</a> </div>
+                  <div> <a href="#">Terms & Conditions</a> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div id="footerContact">
+            <div id="footerContactTitle">Contact Info</div>
+            <div id="footerContactList">
+              <div>
+               <span> Phone </span> <br>
+                080 707 555-321
+              </div>
+              <div>
+                <span>email</span> <br>
+                demo@example.com
+              </div>
+              <div>
+               <span> Address</span> <br>
+                526 Melrose Street, Water Mill, 11976 New York
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="bootstrap/bootstrap-5.2.0-beta1-dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
